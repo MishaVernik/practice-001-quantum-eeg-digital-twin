@@ -166,6 +166,8 @@ GitHub Actions запускає повний основний приклад, е
 
 ## Джерела
 
+Походження включених файлів: [DATA_SOURCES.md](DATA_SOURCES.md).
+
 - [Neuroergonomics 2021 pBCI competition](https://doi.org/10.5281/zenodo.4917218).
 - [OpenNeuro ds003838 v1.0.6](https://doi.org/10.18112/openneuro.ds003838.v1.0.6).
 - [FACED dataset](https://doi.org/10.1038/s41597-023-02650-w).
