@@ -1,0 +1,8 @@
+{
+  "retraining": "PASS",
+  "student_solutions": "PASS",
+  "integration": "PASS",
+  "born_independent_statevector_and_gradient_tests": "PASS",
+  "replay": "PASS",
+  "scope": "Training and integration verified during initial package preparation; replay rerun after typography update. Current document QA is at ../verification.json."
+}

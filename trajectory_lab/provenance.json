@@ -1,0 +1,34 @@
+{
+  "source": "phd-project/docs/evidence/state_planning/trajectory-v2-20261006-causal",
+  "modules": {
+    "trajectory_born.py": "f91c394e5f27b44cbe028052a3c1e0e36ae7ad00c1944db197d0981f34960f42",
+    "trajectory_classical.py": "b0dc248e1d91924385468af6532d9827b59ed5399b3a30ea3d131636fee75f5e",
+    "trajectory_contract.py": "4ef4a8b78a75694a46db511faccf300ac03297628d8f3672b793639627600299",
+    "trajectory_model.py": "fd73309f4b650dff3ce424cd9ce2b61fbe69e2873c47ff744880c29ab73231d4"
+  },
+  "evidence": {
+    "config.json": "73c2c16b60b8f20dc67ea0bd35527c2366737a025c1b3ae0cccc5f43d8beb593",
+    "predictions.json": "ee243a4ab29f5c13fd4f01b78fb4546039914bdc43c142b1891073731c0d35d3",
+    "results.json": "19b10db7e1f87aa651db54fa79a44e86895316f5a3e8ef13c61b0219cb35d78d"
+  },
+  "original_module_sha256": {
+    "trajectory_born.py": "f91c394e5f27b44cbe028052a3c1e0e36ae7ad00c1944db197d0981f34960f42",
+    "trajectory_classical.py": "b0dc248e1d91924385468af6532d9827b59ed5399b3a30ea3d131636fee75f5e",
+    "trajectory_contract.py": "4ef4a8b78a75694a46db511faccf300ac03297628d8f3672b793639627600299",
+    "trajectory_model.py": "fd73309f4b650dff3ce424cd9ce2b61fbe69e2873c47ff744880c29ab73231d4"
+  },
+  "teaching_copy_sha256": {
+    "trajectory_born.py": "372c1ec24365187b0677fbebba71984abdcb80cfbbcae85c6ae15346533c01ff",
+    "trajectory_classical.py": "b0dc248e1d91924385468af6532d9827b59ed5399b3a30ea3d131636fee75f5e",
+    "trajectory_contract.py": "ac370516d9fa68f7d6fcdc6f414cb12e16e1a1c16976db2dcd1fd3887befd840",
+    "trajectory_model.py": "6e16db8f58e173ebecfdd0b832e2302bbbe44dd41a90393e572b620a0e17b79d"
+  },
+  "typography_note": "Only em dash to en dash in copied source text; computations unchanged. modules records original source hashes.",
+  "packaging_revision": "2026-10-08: folder paths and figure labels updated; text line endings normalized. Numerical model code and stored experiment results unchanged.",
+  "teaching_evidence_sha256": {
+    "config.json": "fd1313dfafdfce5bbc42be383931342e4061343b20008935df352a61305f8ce8",
+    "predictions.json": "ee243a4ab29f5c13fd4f01b78fb4546039914bdc43c142b1891073731c0d35d3",
+    "results.json": "c445239ba1b534c05b882fd77de0e8765559a12c207be12d9301665a5efb1771"
+  },
+  "repository_note": "Source paths beginning phd-project/ refer to the original PhD project, not runtime dependencies. All required inputs are included here. Git text files use LF line endings."
+}

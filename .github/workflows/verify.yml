@@ -1,0 +1,40 @@
+name: Verify teaching examples
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+          cache: pip
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Train Born models and run NSGA-II
+        run: python twin_lab/run_twin.py --out runs/twin
+      - name: Check reference implementations on new predictions
+        run: python twin_lab/check_twin.py --solution --run runs/twin
+      - name: Reproduce physiological data analysis
+        run: python data_lab/run_real.py --out runs/data
+      - name: Verify physiological calculations
+        run: python data_lab/check_tasks.py --reference
+      - name: Recompute the included ECG and PPG example
+        run: python data_lab/recompute_probe.py
+      - name: Check the trajectory exercises
+        run: python trajectory_lab/check_lab.py --solution
+      - name: Save generated results and figures
+        uses: actions/upload-artifact@v4
+        with:
+          name: teaching-results
+          path: runs/
+          retention-days: 14

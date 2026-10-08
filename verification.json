@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-08",
+  "documents": {
+    "Лекція_2_конспект_оновлено.docx": {
+      "pages": 11,
+      "labels_and_paths_checked": true,
+      "visual_review": "all pages"
+    },
+    "ЛР1_Заняття_3_оновлено.docx": {
+      "pages": 9,
+      "labels_and_paths_checked": true,
+      "visual_review": "all pages"
+    }
+  },
+  "new_experiment": {
+    "freshly_trained_schemes": 6,
+    "epochs_each": 8,
+    "evaluated_configurations": 30,
+    "repeated_run_metrics_identical": true,
+    "selected": {
+      "key": "L3_CNOT1",
+      "layers": 3,
+      "cnot": 1,
+      "shots": 256,
+      "dev_nll": 1.2824381088256342,
+      "dev_mc_sd": 0.008230190740608836,
+      "gate_shots": 4608
+    },
+    "test_nll": {
+      "uniform": 2.0794415416798357,
+      "task_only": 1.6203709449050734,
+      "selected_born_exact": 1.3408143235542325,
+      "selected_born_shots": 1.3475431374696327,
+      "softmax": 0.7880738099779245
+    },
+    "reference_student_functions": "PASS: NLL, development-only budget choice, fallback, probability validation, domain boundary",
+    "training_curve_epochs": [
+      0,
+      1,
+      8
+    ]
+  },
+  "visual_qa": "All 20 PDF pages inspected. Word export and Poppler used because packaged renderer cannot find LibreOffice.",
+  "data_scope": "New training and NSGA-II use an explicitly synthetic transition fixture. Real EEG and CLI/HRV/Emotion evidence retained from the prior verified data review; see data_lab provenance and reference_run. No full real-human forecasting or planning-benefit claim.",
+  "figures": "Matplotlib; training losses, calculated configuration objectives and held-out metrics. Architecture diagram is a schematic.",
+  "revision_checks": {
+    "folder": "data_lab",
+    "stale_folder_references": 0,
+    "down_arrow_labels": 0,
+    "numerical_results_preserved": true,
+    "full_run_after_path_rename": "PASS",
+    "reference_student_functions": "PASS",
+    "archive": "CRC checked; SHA256 manifest verified"
+  },
+  "repository_verification": {
+    "date": "2026-10-08",
+    "installation": "Clean Python 3.13.5 virtual environment, pip install -r requirements.txt; pip check PASS",
+    "checks": [
+      "twin_lab/run_twin.py completed",
+      "twin_lab/check_twin.py --solution PASS on new predictions",
+      "data_lab/run_real.py completed",
+      "data_lab/check_tasks.py --reference PASS",
+      "data_lab/recompute_probe.py PASS",
+      "trajectory_lab/check_lab.py --solution PASS"
+    ],
+    "readme_relative_links": "verified",
+    "ci": "Configured in .github/workflows/verify.yml; remote run status is available on GitHub Actions"
+  }
+}

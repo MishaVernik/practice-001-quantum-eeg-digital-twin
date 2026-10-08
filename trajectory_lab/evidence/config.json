@@ -1,0 +1,51 @@
+{
+  "contract": "trajectory-v2",
+  "synthetic": true,
+  "deployment_allowed": false,
+  "seed": 20261005,
+  "epochs": 8,
+  "train_days": [
+    "d00",
+    "d01",
+    "d02",
+    "d03",
+    "d04",
+    "d05",
+    "d06",
+    "d07"
+  ],
+  "selection_days": [
+    "d08",
+    "d09"
+  ],
+  "test_days": [
+    "d10",
+    "d11",
+    "d12",
+    "d13",
+    "d14"
+  ],
+  "source_sha256": {},
+  "quantisation": "training-only eight bins; does not alter displayed CLI",
+  "features": "Steps.matrix v2 + activity observed at forecast origin; unknown break flag, no gap-as-recovery",
+  "python": "3.13.5",
+  "horizon": "one observed transition; not a day",
+  "regularization_grid": [
+    0.01,
+    0.1,
+    1
+  ],
+  "eligible_steps": {
+    "train": 1416,
+    "selection": 354,
+    "test": 885
+  },
+  "code_sha256": {
+    "benchmark_trajectory_v2.py": "563dd566a4b919839d583104e21c9d89bba6a27bb3e62a4450970b9d9fe4ea91",
+    "trajectory_contract.py": "4ef4a8b78a75694a46db511faccf300ac03297628d8f3672b793639627600299",
+    "trajectory_model.py": "fd73309f4b650dff3ce424cd9ce2b61fbe69e2873c47ff744880c29ab73231d4",
+    "trajectory_classical.py": "b0dc248e1d91924385468af6532d9827b59ed5399b3a30ea3d131636fee75f5e",
+    "trajectory_born.py": "f91c394e5f27b44cbe028052a3c1e0e36ae7ad00c1944db197d0981f34960f42",
+    "trajectory_gru.py": "e9e2d3b54c0f26750148b49271099531428f9d5c4339c09a68d818a75f09d550"
+  }
+}

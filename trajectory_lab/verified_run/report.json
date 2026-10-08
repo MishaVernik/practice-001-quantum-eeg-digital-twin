@@ -1,0 +1,75 @@
+{
+  "mode": "train",
+  "seed": 20261005,
+  "synthetic": true,
+  "split": {
+    "train": 1416,
+    "selection": 354,
+    "test": 885
+  },
+  "metrics": {
+    "uniform": {
+      "nll": 2.0794415416798353,
+      "accuracy": 0.27570621468926554,
+      "brier": 0.875
+    },
+    "marginal": {
+      "nll": 1.6203709449050734,
+      "accuracy": 0.25536723163841807,
+      "brier": 0.7803112739328312
+    },
+    "markov": {
+      "nll": 1.1484950565881737,
+      "accuracy": 0.46440677966101696,
+      "brier": 0.6199994084779824
+    },
+    "gaussian_ar": {
+      "nll": 0.9415225079373206,
+      "accuracy": 0.6011299435028249,
+      "brier": 0.524006858731361
+    },
+    "softmax": {
+      "nll": 0.7880738099779245,
+      "accuracy": 0.631638418079096,
+      "brier": 0.44053630991991594
+    },
+    "born_gray_product": {
+      "nll": 2.007753439360854,
+      "accuracy": 0.3333333333333333,
+      "brier": 0.8962656575829848
+    },
+    "born_gray_entangled": {
+      "nll": 1.3408143235542325,
+      "accuracy": 0.45649717514124294,
+      "brier": 0.6421723252631598
+    }
+  },
+  "training_history": {
+    "born_gray_product": [
+      4.489387865445811,
+      1.8184827457399864,
+      1.5674907206590847
+    ],
+    "born_gray_entangled": [
+      3.184474764021941,
+      1.67605298935208,
+      1.1565546022346365
+    ]
+  },
+  "max_abs_difference_from_archive": {
+    "marginal": 0.0,
+    "markov": 0.0,
+    "gaussian_ar": 8.01581023779363e-14,
+    "softmax": 1.2301271112846734e-13,
+    "born_gray_product": 1.3566925360919413e-13,
+    "born_gray_entangled": 2.993169601062107e-11
+  },
+  "python": "3.13.5",
+  "numpy": "2.1.3",
+  "evidence_sha256": {
+    "config.json": "73c2c16b60b8f20dc67ea0bd35527c2366737a025c1b3ae0cccc5f43d8beb593",
+    "predictions.json": "ee243a4ab29f5c13fd4f01b78fb4546039914bdc43c142b1891073731c0d35d3",
+    "results.json": "19b10db7e1f87aa651db54fa79a44e86895316f5a3e8ef13c61b0219cb35d78d"
+  },
+  "scope": "One-step prediction on generated days; no human EEG validation or quantum advantage."
+}

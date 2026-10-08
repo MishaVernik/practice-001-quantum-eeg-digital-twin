@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-07",
+  "sources": [
+    {
+      "source": "phd-project/dissertation/OCTOBER_METHOD_ALIGNMENT.md",
+      "source_sha256": "c7022ac26a4a1cc9b2e7fb4f3aeabee4b3dfb485d4434e195e8a9efeeff01510",
+      "copy": "twin_lab/evidence/OCTOBER_METHOD_ALIGNMENT.md",
+      "copy_sha256": "61d53478de8481f27f53bffe0b2670f0d0a9e163d2f26cd4283c5880f46cafa7"
+    },
+    {
+      "source": "phd-project/docs/evidence/state_planning/TRAJECTORY_V2_RESULTS_2026-10-06.md",
+      "source_sha256": "3dc7cd0836ed05c74e998d6633645b9c725734af74f156346f6cc2d62927a3ea",
+      "copy": "twin_lab/evidence/TRAJECTORY_V2_RESULTS_2026-10-06.md",
+      "copy_sha256": "90516136442612dd338cd7ff22d37991750a9fac90766791bc1e57fc23c33bd8"
+    },
+    {
+      "source": "phd-project/validation/h1_optimizers.py",
+      "source_sha256": "9092ddc134a59bc668f607b6fb593643d40a2afc4afa9a1af766683c49dd728a",
+      "copy": "twin_lab/h1_optimizers.py",
+      "copy_sha256": "cb0115055581855bc3f3803d6dc1b8ca7d2ad0493f75294ce5a69ade8dad0ca5"
+    }
+  ],
+  "copy_note": "Only em dash to en dash in copied sources. New teaching integration and experiment are explicitly identified in README. Other model origins are in ../trajectory_lab/provenance.json.",
+  "packaging_revision": "2026-10-08: folder paths and figure labels updated; text line endings normalized. Numerical model code and stored experiment results unchanged.",
+  "repository_note": "Source paths beginning phd-project/ refer to the original PhD project, not runtime dependencies. All required inputs are included here. Git text files use LF line endings."
+}

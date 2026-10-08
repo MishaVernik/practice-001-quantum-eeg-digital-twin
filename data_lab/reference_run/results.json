@@ -1,0 +1,86 @@
+{
+  "eeg": {
+    "participants": 15,
+    "sessions": 30,
+    "binary_windows": 8940,
+    "all_windows": 13410,
+    "lr_mean_subject_auroc": 0.7778238217497709,
+    "descriptive_subject_bootstrap_ci": [
+      0.6911151712385327,
+      0.8453255859345674
+    ],
+    "subjects_above_chance": 14
+  },
+  "cli": {
+    "mean_subject_auroc": 0.5381469303184542,
+    "median_session_cli_by_difficulty": [
+      0.9324585469250963,
+      1.0801157507989754,
+      0.9521429444250709
+    ],
+    "scope": "Mobile formula adapted to native research-cap regions, not a Muse validation"
+  },
+  "cardiac": {
+    "candidate_windows": 65,
+    "paired_windows": 58,
+    "participants": 8,
+    "metrics": {
+      "rate_bpm": {
+        "mae": 0.25563478569642667,
+        "bias": 0.15014949668089603,
+        "loa": [
+          -1.5481760595131866,
+          1.8484750528749787
+        ]
+      },
+      "rmssd_ms": {
+        "mae": 17.990142358492527,
+        "bias": 17.067488188023887,
+        "loa": [
+          -32.70281195159703,
+          66.8377883276448
+        ]
+      }
+    }
+  },
+  "emotion": {
+    "participant": {
+      "n": 353,
+      "positives": 30,
+      "metrics": {
+        "LSTM–GRU": {
+          "auroc": 0.6201238390092879,
+          "average_precision": 0.15931768477187486
+        },
+        "Класична EEG": {
+          "auroc": 0.7294117647058823,
+          "average_precision": 0.3151510178424579
+        },
+        "Лише відео": {
+          "auroc": 0.9527863777089784,
+          "average_precision": 0.784897423386632
+        }
+      },
+      "named_output_threshold": 1.000001
+    },
+    "stimulus": {
+      "n": 185,
+      "positives": 19,
+      "metrics": {
+        "LSTM–GRU": {
+          "auroc": 0.7660114140773621,
+          "average_precision": 0.26065370464346493
+        },
+        "Класична EEG": {
+          "auroc": 0.7666455294863666,
+          "average_precision": 0.3623546399938863
+        },
+        "Лише відео": {
+          "auroc": 0.5,
+          "average_precision": 0.10270270270270271
+        }
+      },
+      "named_output_threshold": 1.000001
+    }
+  }
+}

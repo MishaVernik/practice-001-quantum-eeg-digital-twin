@@ -1,0 +1,243 @@
+{
+  "date": "2026-10-07",
+  "source": "New teaching experiment using PhD conditional Born and NSGA2 implementations",
+  "split": {
+    "train": 1416,
+    "dev": 354,
+    "test": 885
+  },
+  "training_seed": 20261005,
+  "epochs": 8,
+  "search": {
+    "method": "NSGA-II",
+    "population": 12,
+    "generations": 10,
+    "proposal_count": 120,
+    "distinct_configs": 21,
+    "full_grid": 30,
+    "selection_budget_gate_shots": 4608,
+    "selected": {
+      "key": "L3_CNOT1",
+      "layers": 3,
+      "cnot": 1,
+      "shots": 256,
+      "dev_nll": 1.2824381088256342,
+      "dev_mc_sd": 0.008230190740608836,
+      "gate_shots": 4608
+    },
+    "exhaustive_selected": {
+      "key": "L3_CNOT1",
+      "layers": 3,
+      "cnot": 1,
+      "shots": 256,
+      "dev_nll": 1.2824381088256342,
+      "dev_mc_sd": 0.008230190740608836,
+      "gate_shots": 4608
+    },
+    "gap_to_exhaustive_dev_nll": 0.0,
+    "history": [
+      {
+        "generation": 1,
+        "distinct_configs": 10,
+        "best_dev_nll_under_budget": 1.3689158712054088
+      },
+      {
+        "generation": 2,
+        "distinct_configs": 13,
+        "best_dev_nll_under_budget": 1.3504243366794217
+      },
+      {
+        "generation": 3,
+        "distinct_configs": 14,
+        "best_dev_nll_under_budget": 1.3504243366794217
+      },
+      {
+        "generation": 4,
+        "distinct_configs": 15,
+        "best_dev_nll_under_budget": 1.3504243366794217
+      },
+      {
+        "generation": 5,
+        "distinct_configs": 16,
+        "best_dev_nll_under_budget": 1.3202562182725297
+      },
+      {
+        "generation": 6,
+        "distinct_configs": 19,
+        "best_dev_nll_under_budget": 1.3202562182725297
+      },
+      {
+        "generation": 7,
+        "distinct_configs": 19,
+        "best_dev_nll_under_budget": 1.3202562182725297
+      },
+      {
+        "generation": 8,
+        "distinct_configs": 21,
+        "best_dev_nll_under_budget": 1.2824381088256342
+      },
+      {
+        "generation": 9,
+        "distinct_configs": 21,
+        "best_dev_nll_under_budget": 1.2824381088256342
+      },
+      {
+        "generation": 10,
+        "distinct_configs": 21,
+        "best_dev_nll_under_budget": 1.2824381088256342
+      }
+    ]
+  },
+  "test_nll": {
+    "uniform": 2.0794415416798357,
+    "task_only": 1.6203709449050734,
+    "selected_born_exact": 1.3408143235542325,
+    "selected_born_shots": 1.3475431374696327,
+    "softmax": 0.7880738099779245
+  },
+  "training_history": {
+    "L1_CNOT0": {
+      "epochs": [
+        0,
+        1,
+        8
+      ],
+      "nll": [
+        3.310354926540949,
+        1.9183217822090135,
+        1.3169453368895168
+      ]
+    },
+    "L1_CNOT1": {
+      "epochs": [
+        0,
+        1,
+        8
+      ],
+      "nll": [
+        3.0817675537957103,
+        2.136004103293304,
+        1.7006557296810112
+      ]
+    },
+    "L2_CNOT0": {
+      "epochs": [
+        0,
+        1,
+        8
+      ],
+      "nll": [
+        4.518196853400253,
+        2.3761029675202763,
+        1.4844909471966468
+      ]
+    },
+    "L2_CNOT1": {
+      "epochs": [
+        0,
+        1,
+        8
+      ],
+      "nll": [
+        2.6058131763349777,
+        1.7762957159662034,
+        1.382671916007042
+      ]
+    },
+    "L3_CNOT0": {
+      "epochs": [
+        0,
+        1,
+        8
+      ],
+      "nll": [
+        4.489387865445811,
+        1.8184827457399864,
+        1.5674907206590847
+      ]
+    },
+    "L3_CNOT1": {
+      "epochs": [
+        0,
+        1,
+        8
+      ],
+      "nll": [
+        3.184474764021941,
+        1.67605298935208,
+        1.1565546022346365
+      ]
+    }
+  },
+  "training_seconds_local_cpu": {
+    "L1_CNOT0": 0.16500860000087414,
+    "L1_CNOT1": 0.2103835000016261,
+    "L2_CNOT0": 0.47884089999934076,
+    "L2_CNOT1": 0.7015193999977782,
+    "L3_CNOT0": 1.0321297000009508,
+    "L3_CNOT1": 1.5116170000001148
+  },
+  "adapter_examples": {
+    "real_eeg_observation": {
+      "domain": "neuroergo_task",
+      "source_id": "P01",
+      "observation": {
+        "p_difficult": 0.7720787777524716,
+        "target": "MATB-II difficulty"
+      },
+      "forecast": null,
+      "mode": "observation_only",
+      "planning_allowed": false,
+      "reason": "No matched transition model"
+    },
+    "synthetic_born": {
+      "domain": "synthetic_trajectory",
+      "source_id": "d10",
+      "observation": {
+        "previous_level": 0
+      },
+      "forecast": {
+        "horizon": "one observed transition",
+        "probabilities": [
+          0.5788461538461539,
+          0.05961538461538462,
+          0.0019230769230769232,
+          0.21346153846153845,
+          0.0019230769230769232,
+          0.11730769230769231,
+          0.01730769230769231,
+          0.009615384615384616
+        ],
+        "expected_level": 1.4692307692307691,
+        "p_levels_6_7": 0.026923076923076925
+      },
+      "mode": "born_simulator",
+      "planning_allowed": false
+    },
+    "synthetic_fallback": {
+      "domain": "synthetic_trajectory",
+      "source_id": "d10",
+      "observation": {
+        "previous_level": 0
+      },
+      "forecast": {
+        "horizon": "one observed transition",
+        "probabilities": [
+          0.9548281946093125,
+          0.002509044404055928,
+          0.0001784941767407401,
+          1.1277565788647305e-07,
+          2.4134969489826195e-07,
+          0.042483912660095824,
+          2.4442248778696685e-11,
+          6.004169360075421e-17
+        ],
+        "expected_level": 0.2152868999304237,
+        "p_levels_6_7": 2.4442308820390286e-11
+      },
+      "mode": "classical_fallback",
+      "planning_allowed": false
+    }
+  },
+  "scope": "Synthetic transition fixture. Real EEG is an observation-only domain. Cost is logical gate count times simulated shots; no hardware latency or planning benefit claim."
+}

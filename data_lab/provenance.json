@@ -1,0 +1,279 @@
+{
+  "sources": [
+    {
+      "path": "phd-project/validation/out/h1/features/neuroergo/P01_S1.npz",
+      "sha256": "54dd7d8368bd949a76582b8465557545f4e9c2437ad3bf402afc81540bc5838f",
+      "role": "cached real EEG features"
+    },
+    {
+      "path": "phd-project/validation/out/h1/features/neuroergo/P01_S2.npz",
+      "sha256": "a5fd659ec70814e3de03175e4f65e5b014680c2beb5001ff76a78b770025ac90",
+      "role": "cached real EEG features"
+    },
+    {
+      "path": "phd-project/validation/out/h1/features/neuroergo/P02_S1.npz",
+      "sha256": "178d600abf9f52a9d2cd9964c26348551ee6cd39f4fc118d2b7cf513ecdf5a6a",
+      "role": "cached real EEG features"
+    },
+    {
+      "path": "phd-project/validation/out/h1/features/neuroergo/P02_S2.npz",
+      "sha256": "fabfbf6f3228134bdcd7f9f242e4d0cabbaaed0d58ade6466cc859d959d7b123",
+      "role": "cached real EEG features"
+    },
+    {
+      "path": "phd-project/validation/out/h1/features/neuroergo/P03_S1.npz",
+      "sha256": "38f7273d54dcf7f1a216e2828d0b5c17eecaa551f6a96587abc46de89efcd91e",
+      "role": "cached real EEG features"
+    },
+    {
+      "path": "phd-project/validation/out/h1/features/neuroergo/P03_S2.npz",
+      "sha256": "55fd002246dbb1477695d7caade494a1e36400a9a0b5f54d7555aadb93fb5e2f",
+      "role": "cached real EEG features"
+    },
+    {
+      "path": "phd-project/validation/out/h1/features/neuroergo/P04_S1.npz",
+      "sha256": "2051612bdd4f797751f9db1a4359f929094bd57f65c1c008bf7923dd531d92b7",
+      "role": "cached real EEG features"
+    },
+    {
+      "path": "phd-project/validation/out/h1/features/neuroergo/P04_S2.npz",
+      "sha256": "55af8d6d740c09d26f4b33aeccaf1f772b9fcba4408c18325708c9e456012c9e",
+      "role": "cached real EEG features"
+    },
+    {
+      "path": "phd-project/validation/out/h1/features/neuroergo/P05_S1.npz",
+      "sha256": "151e1cc5917f2df1ee7e32dcd40085fe198f37327805aac1930dfd6001cc1302",
+      "role": "cached real EEG features"
+    },
+    {
+      "path": "phd-project/validation/out/h1/features/neuroergo/P05_S2.npz",
+      "sha256": "f63f99d9a9960c6e75064202ba0ddecff67005c10069ab843e5ba18b81c55e1d",
+      "role": "cached real EEG features"
+    },
+    {
+      "path": "phd-project/validation/out/h1/features/neuroergo/P06_S1.npz",
+      "sha256": "7e3db2f803b9575c5e2ae4f6c651c057b5b4c480ac487ec0381df89ce2240504",
+      "role": "cached real EEG features"
+    },
+    {
+      "path": "phd-project/validation/out/h1/features/neuroergo/P06_S2.npz",
+      "sha256": "854fff0e623654e55cab6e226ed382b5cd252f99bb4fcc59770ec20fe9467b49",
+      "role": "cached real EEG features"
+    },
+    {
+      "path": "phd-project/validation/out/h1/features/neuroergo/P07_S1.npz",
+      "sha256": "16fd205eb0966a8dce2b0d7f3c24e41054a62149d2bb007cabcbc5c0c148a2f4",
+      "role": "cached real EEG features"
+    },
+    {
+      "path": "phd-project/validation/out/h1/features/neuroergo/P07_S2.npz",
+      "sha256": "36c249ac49190c399b8b966524688f93417f47745aba1affcd62a6f3d7704a8f",
+      "role": "cached real EEG features"
+    },
+    {
+      "path": "phd-project/validation/out/h1/features/neuroergo/P08_S1.npz",
+      "sha256": "84a1aadde02c831d7d13c195efed4e24ba99f3e883df1dcb5ee65dee6589c7c2",
+      "role": "cached real EEG features"
+    },
+    {
+      "path": "phd-project/validation/out/h1/features/neuroergo/P08_S2.npz",
+      "sha256": "674e3b2ded1d830f7a293bed5022ad59a0f0d683179de83bf7a02f127107e2f2",
+      "role": "cached real EEG features"
+    },
+    {
+      "path": "phd-project/validation/out/h1/features/neuroergo/P09_S1.npz",
+      "sha256": "ed4615ba1ca60fc6723de96af13911049dd5c6f3fe0f5374ec833c599b7d4baf",
+      "role": "cached real EEG features"
+    },
+    {
+      "path": "phd-project/validation/out/h1/features/neuroergo/P09_S2.npz",
+      "sha256": "c0a34d739e3302233281111cabf9a34ad99df399670f897e56390db79086b714",
+      "role": "cached real EEG features"
+    },
+    {
+      "path": "phd-project/validation/out/h1/features/neuroergo/P10_S1.npz",
+      "sha256": "4e3cb833b7d1594bd8b074153be0210080686b7891ba9b644dcd18372baa4967",
+      "role": "cached real EEG features"
+    },
+    {
+      "path": "phd-project/validation/out/h1/features/neuroergo/P10_S2.npz",
+      "sha256": "fa86bef88e91d012a04e2fc000d417d48904323fa7934482d75cbe754cf1ce5f",
+      "role": "cached real EEG features"
+    },
+    {
+      "path": "phd-project/validation/out/h1/features/neuroergo/P11_S1.npz",
+      "sha256": "780ea809adb1294766b6310908a594e83f2e2859816c8a24fdb0518b22f18ea3",
+      "role": "cached real EEG features"
+    },
+    {
+      "path": "phd-project/validation/out/h1/features/neuroergo/P11_S2.npz",
+      "sha256": "ee0ed7428d84cba20c4f8da8e42281498d12949b2ee30e925c1098c9a319f985",
+      "role": "cached real EEG features"
+    },
+    {
+      "path": "phd-project/validation/out/h1/features/neuroergo/P12_S1.npz",
+      "sha256": "c70ec1b66b341b3a8f6eed0f3bda6fff18804590257a65fd89ee26ba8a66250c",
+      "role": "cached real EEG features"
+    },
+    {
+      "path": "phd-project/validation/out/h1/features/neuroergo/P12_S2.npz",
+      "sha256": "bf047d7ac7ef7776393b39f81ceeae619a77201e6ecd86bae05cc2109f2008ad",
+      "role": "cached real EEG features"
+    },
+    {
+      "path": "phd-project/validation/out/h1/features/neuroergo/P13_S1.npz",
+      "sha256": "bee4da27bff24746ca11a85033b39cbbd1985c5f2e7d98d16e68c818680628d4",
+      "role": "cached real EEG features"
+    },
+    {
+      "path": "phd-project/validation/out/h1/features/neuroergo/P13_S2.npz",
+      "sha256": "2e8f43528b8f33760f14af7d8d3369ff124017301262404e857c23c2e39f8a3f",
+      "role": "cached real EEG features"
+    },
+    {
+      "path": "phd-project/validation/out/h1/features/neuroergo/P14_S1.npz",
+      "sha256": "415829be6f4984b0ad867f4f5c23d6204e733250cd777eeb53f5fdfe9fec1cc6",
+      "role": "cached real EEG features"
+    },
+    {
+      "path": "phd-project/validation/out/h1/features/neuroergo/P14_S2.npz",
+      "sha256": "8068e0b42ecfbedc66dc34e572f9c1e4790eb4c8b01be22b005d11ff18d52626",
+      "role": "cached real EEG features"
+    },
+    {
+      "path": "phd-project/validation/out/h1/features/neuroergo/P15_S1.npz",
+      "sha256": "df9f14b854734b98666c3116037a9b38812d53c37d346c983cfe7af134764114",
+      "role": "cached real EEG features"
+    },
+    {
+      "path": "phd-project/validation/out/h1/features/neuroergo/P15_S2.npz",
+      "sha256": "4ea9b2e5f5b8e3966a6b7fbfab5d965f29f801c89014bf0264e0b3c8b9132cd2",
+      "role": "cached real EEG features"
+    },
+    {
+      "path": "phd-project/validation/out/ablation/cache/neuroergo_prims.npz",
+      "sha256": "da79c26af1f1d15968e56fea2af631e8e755c168386baa186661c70aa31bcb0a",
+      "role": "regional EEG band powers and resting reference"
+    },
+    {
+      "path": "phd-project/validation/data/neuroergo/P01/S1/eeg/alldata_sbj01_sess1_RS.set",
+      "sha256": "b6fe394f6609c513fb194c538a75ded923be21d2631f4fd8ff87e6261d00d095",
+      "role": "original EEG probe P01 S1"
+    },
+    {
+      "path": "phd-project/validation/data/neuroergo/P01/S1/eeg/alldata_sbj01_sess1_MATBeasy.set",
+      "sha256": "8ad55746212c988f869ef746461acef6e4ac389a071c44cfb8f5c05f951f37a9",
+      "role": "original EEG probe P01 S1"
+    },
+    {
+      "path": "phd-project/validation/data/neuroergo/P01/S1/eeg/alldata_sbj01_sess1_MATBmed.set",
+      "sha256": "a2a9ebd5e2231cfbd2c8db49b74a4bdb5e51fc7c21cfd27814685d40169fced1",
+      "role": "original EEG probe P01 S1"
+    },
+    {
+      "path": "phd-project/validation/data/neuroergo/P01/S1/eeg/alldata_sbj01_sess1_MATBdiff.set",
+      "sha256": "181d56bb27139456e76c3292cf0165793c80510b8f897e477123ec9d5a0b4f11",
+      "role": "original EEG probe P01 S1"
+    },
+    {
+      "path": "phd-project/docs/evidence/eeg_hrv/ds003838-holdout-8-v2/windows.json",
+      "sha256": "414bd93e3a5bb3b977417ecce9f57244f1413f7661d0ee0d532552333466a8ac",
+      "role": "archived cardiac windows"
+    },
+    {
+      "path": "phd-project/data/eeg_hrv/alignment/ds003838/sub-041/ecg/sub-041_task-rest_ecg.set",
+      "sha256": "1ed6b0f18c362974e0f257ed3e508ad54b1a96a515e8292596cd6d23505477b6",
+      "role": "original paired ECG and PPG"
+    },
+    {
+      "path": "phd-project/data/eeg_hrv/alignment/ds003838/sub-042/ecg/sub-042_task-rest_ecg.set",
+      "sha256": "9f3f1036163148017b89b7caab54281c0c4b70992fd84c0a01f1d564e8321c50",
+      "role": "original paired ECG and PPG"
+    },
+    {
+      "path": "phd-project/data/eeg_hrv/alignment/ds003838/sub-043/ecg/sub-043_task-rest_ecg.set",
+      "sha256": "b45d4e3bb33f87d2b3cda2335f355d3c110fe447fceff0ce093db4f2ec0f5dc3",
+      "role": "original paired ECG and PPG"
+    },
+    {
+      "path": "phd-project/data/eeg_hrv/alignment/ds003838/sub-044/ecg/sub-044_task-rest_ecg.set",
+      "sha256": "8121d3b1498fe8b1ebdb5fd25ea87599009716290942b5e8dea7a22e960a8cb5",
+      "role": "original paired ECG and PPG"
+    },
+    {
+      "path": "phd-project/data/eeg_hrv/alignment/ds003838/sub-045/ecg/sub-045_task-rest_ecg.set",
+      "sha256": "67798a536b60bd900c7426f5482e84dcea264a750b8f2263197260c4aee3ddb3",
+      "role": "original paired ECG and PPG"
+    },
+    {
+      "path": "phd-project/data/eeg_hrv/alignment/ds003838/sub-046/ecg/sub-046_task-rest_ecg.set",
+      "sha256": "4fbfd4b0f621a32707f7082a5c78f44a756f7692c504b694c0efe32d9be7115b",
+      "role": "original paired ECG and PPG"
+    },
+    {
+      "path": "phd-project/data/eeg_hrv/alignment/ds003838/sub-047/ecg/sub-047_task-rest_ecg.set",
+      "sha256": "3873876c227c507df4f520411e86a9fdc44a3c6551fc058b5576421b0f561ca1",
+      "role": "original paired ECG and PPG"
+    },
+    {
+      "path": "phd-project/data/eeg_hrv/alignment/ds003838/sub-048/ecg/sub-048_task-rest_ecg.set",
+      "sha256": "ec952dd59c932f32c3e2342a092bc5f4c959409473ea8dc5e64c319aadd2561d",
+      "role": "original paired ECG and PPG"
+    },
+    {
+      "path": "phd-project/docs/evidence/state_planning/lstm-gru-amusement-20260928/participant_predictions.json",
+      "sha256": "266fe03ab95e2a1510325965052b96e329a2ab23969ae0aa3c9d6cd345cb361f",
+      "role": "FACED frozen test predictions"
+    },
+    {
+      "path": "phd-project/docs/evidence/state_planning/lstm-gru-amusement-20260928/stimulus_predictions.json",
+      "sha256": "edf833da545d468d6bbed7cad43c17b0eec3153bf9605493e19f30b23f025472",
+      "role": "FACED frozen test predictions"
+    },
+    {
+      "path": "phd-project/validation/h1_features.py",
+      "sha256": "b2be3f93234996c20d6bc71ecd5a5b5283260d8eea62d324d8b18378983f911b",
+      "role": "calculation source"
+    },
+    {
+      "path": "phd-project/validation/cme_v1.py",
+      "sha256": "4f5abeaf178b26cc1524cc4f4e62f003a4bb50ea3387df5e5168e683c94b4013",
+      "role": "calculation source"
+    },
+    {
+      "path": "phd-project/validation/neuroergo_validate.py",
+      "sha256": "12437885cd007aee04099f850b2a5df3a6ea3884b9d22502006a23d3a37a5b7f",
+      "role": "calculation source"
+    },
+    {
+      "path": "phd-project/flow-classifier/app/cardiac.py",
+      "sha256": "d601658dba35217d54726e2a85edd5d299901e56ba1d1ce51bc0f130bd12c8a5",
+      "role": "calculation source"
+    },
+    {
+      "path": "phd-project/mobile/cmeflow/src/lib/liveIntensity.ts",
+      "sha256": "aa018f83c6eeecd3a373dd774b923f86b863b444f0b934b4d7b18aa5438c5cb8",
+      "role": "calculation source"
+    }
+  ],
+  "raw_eeg_feature_probe": [
+    {
+      "task": "MATBeasy",
+      "first_epochs": 3,
+      "max_feature_error": 1.2612133559741778e-13
+    },
+    {
+      "task": "MATBmed",
+      "first_epochs": 3,
+      "max_feature_error": 6.572520305780927e-14
+    },
+    {
+      "task": "MATBdiff",
+      "first_epochs": 3,
+      "max_feature_error": 6.439293542825908e-14
+    }
+  ],
+  "cardiac_raw_replay_max_error": 0.0,
+  "interpretation": "Research cap data; no proof of Muse transfer or emotion recognition.",
+  "repository_note": "Source paths beginning phd-project/ refer to the original PhD project, not runtime dependencies. All required inputs are included here. Git text files use LF line endings."
+}
